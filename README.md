@@ -42,7 +42,7 @@ Make sure you have the following installed:
    ros2 launch <package_name> <launch_file>.launch.py
   ```
    
-  2. ** Run the Task 1 Detection / Control Node **
+  2. **Run the Task 1 Detection / Control Node**
    ```
    ros2 run <package_name> <node_name>
    ```
@@ -60,13 +60,14 @@ Make sure you have the following installed:
 
 ---
 
-##Ubuntu Setup :
-1.** Dependencies (OpenCV & NumPy) Install **
+## Ubuntu Setup :
+
+1.**Dependencies (OpenCV & NumPy) Install**
 ```
 sudo apt update
 sudo apt install python3-opencv python3-numpy
 ```
-2. ** e-Yantra Repository **
+2. **e-Yantra Repository**
 ```
 mkdir -p ~/pico_ws/src
 cd ~/pico_ws/src
