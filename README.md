@@ -24,10 +24,9 @@ Make sure you have the following installed:
 ## 🚀 Setup & Installation
 
 1. **Clone the repository:**
-   '''
+   ```
    git clone https://github.com/ingleharsh1645/Eyantra_FindDisasterZone.git
    cd Eyantra_FindDisasterZone
-   
    ```
    
  2. **Build the ROS 2 workspace:**
@@ -46,17 +45,19 @@ Make sure you have the following installed:
   2. ** Run the Task 1 Detection / Control Node **
    ```
    ros2 run <package_name> <node_name>
-
    ```
    ---
 
-   ## 📁 project structure 
+   ## 📁 Project Structure 
+   ``` text
    Eyantra_FindDisasterZone/
 ├── launch/             # ROS launch files
 ├── scripts/            # Python nodes and scripts
 ├── config/             # YAML configurations
 ├── CMakeLists.txt / setup.py
 └── README.md
+ ```
+
 ---
  
 
