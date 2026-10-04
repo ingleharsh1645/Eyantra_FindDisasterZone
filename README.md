@@ -28,19 +28,26 @@ Make sure you have the following installed:
    git clone https://github.com/ingleharsh1645/Eyantra_FindDisasterZone.git
    cd Eyantra_FindDisasterZone
    
+   ```
+   
  2. **Build the ROS 2 workspace:**
    ```bash
    colcon build
    source install/setup.bash
+  ```
    ---
+   
 ## 🎮 How to Run Task 1 
-   **Launch the Simulation Environment**
+  1. **Launch the Simulation Environment**
   ```
    ros2 launch <package_name> <launch_file>.launch.py
+  ```
    
-   ** Run the Task 1 Detection / Control Node **
+  2. ** Run the Task 1 Detection / Control Node **
    ```
    ros2 run <package_name> <node_name>
+
+   ```
    ---
 
    ## 📁 project structure 
