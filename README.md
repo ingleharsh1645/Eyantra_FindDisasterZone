@@ -32,6 +32,7 @@ Make sure you have the following installed:
    ```bash
    colcon build
    source install/setup.bash
+   ---
 ## 🎮 How to Run Task 1 
    **Launch the Simulation Environment**
   ```
@@ -40,7 +41,8 @@ Make sure you have the following installed:
    ** Run the Task 1 Detection / Control Node **
    ```
    ros2 run <package_name> <node_name>
-   
+   ---
+
    ## 📁 project structure 
    Eyantra_FindDisasterZone/
 ├── launch/             # ROS launch files
@@ -48,7 +50,8 @@ Make sure you have the following installed:
 ├── config/             # YAML configurations
 ├── CMakeLists.txt / setup.py
 └── README.md
-
+---
+ 
 
    
   
