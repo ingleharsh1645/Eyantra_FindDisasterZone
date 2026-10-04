@@ -59,6 +59,24 @@ Make sure you have the following installed:
  ```
 
 ---
+
+##Ubuntu Setup :
+1.** Dependencies (OpenCV & NumPy) Install **
+```
+sudo apt update
+sudo apt install python3-opencv python3-numpy
+```
+2. ** e-Yantra Repository **
+```
+mkdir -p ~/pico_ws/src
+cd ~/pico_ws/src
+git clone -b kd_sim https://github.com/eYantra-Robotics-Competition/eYRC_26-27_Khojo-Drone.git --recursive .
+cd ~/pico_ws
+colcon build
+source install/setup.bash
+
+```
+---
  
 
    
